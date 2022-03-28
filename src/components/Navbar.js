@@ -1,4 +1,6 @@
 import { Box, Button, Flex, Heading } from "@chakra-ui/react";
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Navbar = ({ onOpen }) => {
   return (
@@ -23,5 +25,10 @@ const Navbar = ({ onOpen }) => {
     </Box>
   );
 };
+
+Navbar.propTypes = {
+    onOpen: PropTypes.any,
+
+}
 
 export default Navbar;

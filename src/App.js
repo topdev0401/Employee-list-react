@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react'
 import { useDisclosure } from '@chakra-ui/react';
 import ManageEmployee from './components/ManageEmployee';
 import EmployeeList from './components/EmployeeList';

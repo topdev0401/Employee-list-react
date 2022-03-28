@@ -59,6 +59,9 @@ const Employee = (props) => {
 
 Employee.propTypes = {
     deleteEmployee: PropTypes.func.isRequired,
+    openHandler: PropTypes.func.isRequired,
+    index: PropTypes.number.isRequired,
+    employee: PropTypes.any,
 }
 
 export default connect(state => ({}), {deleteEmployee})(Employee);

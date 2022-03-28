@@ -142,7 +142,12 @@ const ManageEmployee = (props) => {
 
 ManageEmployee.propTypes = {
     addEmployee: PropTypes.func.isRequired,
-    updateEmployee: PropTypes.func.isRequired
+    updateEmployee: PropTypes.func.isRequired,
+    employee: PropTypes.any,
+    setEmployee: PropTypes.any,
+    onClose: PropTypes.any,
+    isOpen: PropTypes.any,
+    initialRef: PropTypes.any,
 }
 
 export default connect(state => ({}), {addEmployee, updateEmployee})(ManageEmployee);

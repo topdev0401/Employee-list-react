@@ -2,7 +2,7 @@ import {
     SimpleGrid,
     Heading
 } from '@chakra-ui/react';
-
+import React from 'react';
 import { useEffect } from 'react';
 import Employee from './Employee';
 import PropTypes from 'prop-types';
