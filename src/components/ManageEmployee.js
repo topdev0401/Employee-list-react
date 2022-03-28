@@ -150,4 +150,4 @@ ManageEmployee.propTypes = {
     initialRef: PropTypes.any,
 }
 
-export default connect(state => ({}), {addEmployee, updateEmployee})(ManageEmployee);
+export default connect(() => ({}), {addEmployee, updateEmployee})(ManageEmployee);

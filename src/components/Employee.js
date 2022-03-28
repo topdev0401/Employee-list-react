@@ -64,4 +64,4 @@ Employee.propTypes = {
     employee: PropTypes.any,
 }
 
-export default connect(state => ({}), {deleteEmployee})(Employee);
+export default connect(() => ({}), {deleteEmployee})(Employee);

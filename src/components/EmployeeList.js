@@ -37,7 +37,8 @@ const EmployeeList = (props) => {
 
 EmployeeList.propTypes = {
     getEmployee: PropTypes.func.isRequired,
-    employees: PropTypes.array.isRequired
+    employees: PropTypes.array.isRequired,
+    openHandler: PropTypes.func.isRequired,
 }
 
 const mapStateToProps = state => ({
